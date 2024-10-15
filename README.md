@@ -90,4 +90,4 @@ pip install requests beautifulsoup4
 
 ---
 
-Isso cobre as funcionalidades e o uso básico do seu scraper CLI!
+
