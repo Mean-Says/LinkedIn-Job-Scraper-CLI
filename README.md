@@ -1,6 +1,3 @@
-Aqui está o **README** que descreve o funcionamento do seu projeto de scraper de vagas no LinkedIn:
-
----
 
 # LinkedIn Job Scraper CLI
 
