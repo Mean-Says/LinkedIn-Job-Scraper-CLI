@@ -1,4 +1,3 @@
-
 # LinkedIn Job Scraper CLI
 
 Este projeto é uma ferramenta de linha de comando (CLI) para buscar vagas de emprego no LinkedIn com base em stack, nível e localização (ou opção remota). A aplicação é construída em Python e utiliza as bibliotecas `requests` e `BeautifulSoup` para fazer scraping de vagas no LinkedIn e salvar os resultados em um arquivo `.txt`.
@@ -20,8 +19,8 @@ Este projeto é uma ferramenta de linha de comando (CLI) para buscar vagas de em
 
 - **Python 3.6+**
 - **Bibliotecas necessárias**:
-    - `requests`
-    - `beautifulsoup4`
+  - `requests`
+  - `beautifulsoup4`
 
 Para instalar as bibliotecas necessárias, execute:
 
@@ -34,7 +33,7 @@ pip install requests beautifulsoup4
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seuusuario/linkedin-job-scraper-cli.git
+   git clone https://github.com/Mean-Says/LinkedIn-Job-Scraper-CLI
    ```
 
 2. Acesse o diretório do projeto:
@@ -52,7 +51,9 @@ pip install requests beautifulsoup4
 4. Ao iniciar, você verá uma mensagem de introdução explicando como fazer uma busca. O prompt irá solicitar que você digite três itens: **stack**, **level**, e **location** (ou a palavra "remote" para buscar vagas remotas).
 
    Exemplos de comandos:
+
    - Para buscar vagas remotas de desenvolvedor Python junior:
+
      ```
      python junior remote
      ```
@@ -89,5 +90,3 @@ pip install requests beautifulsoup4
 - Implementar filtros de pesquisa mais avançados, como tipo de contrato e empresa.
 
 ---
-
-
