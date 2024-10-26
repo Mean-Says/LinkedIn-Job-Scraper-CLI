@@ -26,7 +26,7 @@ Este projeto é uma ferramenta de linha de comando (CLI) para buscar vagas de em
 Para instalar as bibliotecas necessárias, execute:
 
 ```bash
-pip install requests beautifulsoup4
+pip install -r requirements.txt
 ```
 
 ## Como usar
@@ -46,7 +46,7 @@ pip install requests beautifulsoup4
 3. Execute o programa:
 
    ```bash
-   python scraper.py
+   python main.py
    ```
 
 4. Ao iniciar, você verá uma mensagem de introdução explicando como fazer uma busca. O prompt irá solicitar que você digite três itens: **stack**, **level**, e **location** (ou a palavra "remote" para buscar vagas remotas).
@@ -70,7 +70,7 @@ pip install requests beautifulsoup4
 
 ```
 .
-├── scraper.py          # Código principal da CLI
+├── main.py          # Código principal da CLI
 ├── jobs_results.txt    # Arquivo gerado com os resultados da busca
 └── README.md           # Descrição do projeto
 ```
